@@ -10,3 +10,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.promptbox {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, .5);
+    margin: .5rem auto 0 auto;
+    padding: 1rem;
+}
