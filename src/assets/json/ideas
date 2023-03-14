@@ -1,0 +1,46 @@
+[
+    {
+        "id" : "1",
+        "prompt" : "Something moving in the wind"
+    },
+    {
+        "id" : "2",
+        "prompt" : "What you think music looks like"
+    },
+    {
+        "id" : "3",
+        "prompt" : "Something that's less than 5 days old"
+    },
+    {
+        "id" : "4",
+        "prompt" : "Something that's more than 100 years old"
+    },
+    {
+        "id" : "5",
+        "prompt" : "An object as if it were alive"
+    },
+    {
+        "id" : "6",
+        "prompt" : "Something outdoors in three different kinds of weather"
+    },
+    {
+        "id" : "7",
+        "prompt" : "A fairy tale character"
+    },
+    {
+        "id" : "8",
+        "prompt" : "Five different things that can fly"
+    },
+    {
+        "id" : "9",
+        "prompt" : "Something you'd see on a deserted island"
+    },
+    {
+        "id" : "10",
+        "prompt" : "Something you've never seen in real life"
+    },
+    {
+        "id" : "11",
+        "prompt" : "Something found in space"
+    }
+]

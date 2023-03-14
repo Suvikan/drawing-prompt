@@ -1,5 +1,6 @@
 import { Component, OnInit, Input,  Output, EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs';
+import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent implements OnInit {
   title = 'drawing-prompt';
+  faQuestion = faQuestion;
   showRandomIdea = false;
   showColorPalet = false;
   showMysteryPrompt = false;
