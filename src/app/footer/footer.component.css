@@ -1,0 +1,9 @@
+.bgcolor {
+    background-color: rgba(245, 245, 245, .5);
+    padding: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0;
+}

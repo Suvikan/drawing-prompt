@@ -1,0 +1,38 @@
+.wrap {
+    display: grid;
+    justify-content: center;
+}
+figure {
+    display: block;
+}
+img {
+    width: 100%;
+}
+h1 {
+    font-size: 3rem;
+    margin: 1rem auto;
+}
+
+#btn-section {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(240, 248, 255, .5);
+    padding: 4rem auto;
+}
+
+.btn {
+    margin: 1rem auto
+}
+
+app-roulette {
+    display: block;
+    padding-bottom: 10rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
