@@ -1,9 +1,11 @@
 .bgcolor {
-    background-color: rgba(245, 245, 245, .5);
+    background-color: rgba(112, 55, 135, .5);
+    color: whitesmoke;
     padding: 1rem;
 }
 
 p {
     font-size: .8rem;
+    font-weight: bold;
     margin: 0;
 }

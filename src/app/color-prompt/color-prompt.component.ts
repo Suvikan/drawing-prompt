@@ -7,12 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./color-prompt.component.css']
 })
 export class ColorPromptComponent {
-  letters = '0123456789ABCDEF';
+  
   primary = '#' + Math.floor(Math.random()*16777215).toString(16);
   second = '#' + Math.floor(Math.random()*16777215).toString(16);
   accent = '#' + Math.floor(Math.random()*16777215).toString(16);
-
-
 
 }
 

@@ -1,3 +1,9 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem auto;
+}
+
 .ideabox {
     display: grid;
     justify-content: center;

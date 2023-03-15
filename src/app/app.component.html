@@ -1,14 +1,20 @@
 <main class="wrap">
-  <figure> <a href="/"> <img src="assets/img/dpglogo.png" alt="logo"></a> </figure>
+
+  <figure> <a href="/"> <img src="assets/img/dpglogo.png" alt="logo"></a>
+  </figure>
+  
   <section id="btn-section">
     <button type="button" class="btn btn-primary" (click)="onShowRandomIdea()">Random Idea</button>
     <button type="button" class="btn btn-danger" (click)="onShowColorPalet()">Random Color Palet</button>
     <button type="button" class="btn btn-warning" (click)="onShowMysteryPrompt()"><fa-icon [icon]="faQuestion"></fa-icon></button>
   </section>
-  <section id="prompt-boxes">
-  <app-idea-prompt *ngIf="showRandomIdea"></app-idea-prompt>
-  <app-color-prompt *ngIf="showColorPalet"></app-color-prompt>
-  <app-mystery-prompt *ngIf="showMysteryPrompt"></app-mystery-prompt>
-</section>
-  <!--<app-footer class="footer"></app-footer>-->
+
+  <section id="prompt-section">
+    <app-idea-prompt *ngIf="showRandomIdea"></app-idea-prompt>
+    <app-color-prompt *ngIf="showColorPalet"></app-color-prompt>
+    <app-mystery-prompt *ngIf="showMysteryPrompt"></app-mystery-prompt>
+  </section>
+
+  <app-footer class="fixed-bottom"></app-footer>
+
 </main>
