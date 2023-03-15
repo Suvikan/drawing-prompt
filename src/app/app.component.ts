@@ -1,4 +1,5 @@
-import { Component, OnInit, Input,  Output, EventEmitter } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { DataService } from './data.service';
 import { Observable } from 'rxjs';
 import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 
@@ -15,7 +16,7 @@ export class AppComponent implements OnInit {
   showMysteryPrompt = false;
 
 
-  constructor() {
+  constructor(private service: DataService) {
     this.showRandomIdea = false;
     this.showColorPalet = false;
     this.showMysteryPrompt = false;

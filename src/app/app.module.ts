@@ -10,6 +10,9 @@ import { IdeaPromptComponent } from './idea-prompt/idea-prompt.component';
 import { ColorPromptComponent } from './color-prompt/color-prompt.component';
 import { MysteryPromptComponent } from './mystery-prompt/mystery-prompt.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,9 @@ import { MysteryPromptComponent } from './mystery-prompt/mystery-prompt.componen
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
