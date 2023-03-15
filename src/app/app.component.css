@@ -27,8 +27,7 @@ h1 {
 
 #prompt-boxes {
     display: flex;
-    flex-direction: row;
-    padding-bottom: 10rem;
+    flex-direction: column;
     margin: 0 auto;
   }
   

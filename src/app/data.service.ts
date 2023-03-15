@@ -12,4 +12,8 @@ export class DataService {
   getAllIdeas() {
   return this.http.get('../assets/json/ideas.json');
   }
+
+  getAllMysteries() {
+    return this.http.get('../assets/json/mystery.json');
+  }
 }

@@ -1,0 +1,46 @@
+[
+    {
+        "id" : "1",
+        "prompt" : "Make a full background"
+    },
+    {
+        "id" : "2",
+        "prompt" : "Use only one tool"
+    },
+    {
+        "id" : "3",
+        "prompt" : "Try different style from your usual"
+    },
+    {
+        "id" : "4",
+        "prompt" : "Something"
+    },
+    {
+        "id" : "5",
+        "prompt" : "Something"
+    },
+    {
+        "id" : "6",
+        "prompt" : "Something"
+    },
+    {
+        "id" : "7",
+        "prompt" : "Something"
+    },
+    {
+        "id" : "8",
+        "prompt" : "Something"
+    },
+    {
+        "id" : "9",
+        "prompt" : "Something"
+    },
+    {
+        "id" : "10",
+        "prompt" : "Something"
+    },
+    {
+        "id" : "11",
+        "prompt" : "Something"
+    }
+]

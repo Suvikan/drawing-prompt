@@ -1,7 +1,25 @@
+.center {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-wrap {
+    margin: 1rem;
+}
 .colorbox {
+    width: 120px;
+    height: 120px;
     display: grid;
     justify-content: center;
-    background-color: rgba(240, 248, 255, .5);
-    margin: 1rem auto;
-    padding: 1rem;
+    margin: 0 .5rem;
+}
+
+h1 {
+    margin: auto .5rem
+}
+
+p {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: .2rem;
 }
